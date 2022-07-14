@@ -1,0 +1,35 @@
+#h1 {
+    width: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+.list {
+    width: auto;
+    background-color: aquamarine;
+    font-style: italic;
+    line-height: 10px;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 600;
+    width: 3em;
+}
+
+body {
+    font-size: 16px;
+}
+
+#list-1 {
+    background-color: yellow;
+}
+
+#list-2 {
+    background-color: red;
+}
+
+#list-3 {
+    background-color: brown;
+}
