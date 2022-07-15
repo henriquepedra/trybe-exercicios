@@ -1,0 +1,33 @@
+div:hover {
+    border: 5px;
+    border-color: aquamarine;
+    border-style: solid;
+}
+
+#cor1 {
+    color: blue;
+    font-style: italic;
+}
+
+#cor2 {
+    color: green;
+}
+
+#cor3 {
+    color: red;
+    font-size: x-large;
+    font-style: italic;
+}
+
+#cor4 {
+    color: purple;
+}
+
+#cor5 {
+    color: lightskyblue;
+    font-style: italic;
+}
+
+h3 {
+    font-weight: bold;
+}
