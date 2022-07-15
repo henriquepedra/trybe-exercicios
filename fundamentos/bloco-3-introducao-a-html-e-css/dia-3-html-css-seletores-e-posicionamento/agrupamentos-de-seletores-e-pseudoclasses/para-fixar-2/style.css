@@ -4,30 +4,31 @@ div:hover {
     border-style: solid;
 }
 
-#cor1 {
+div:nth-of-type(1) {
     color: blue;
-    font-style: italic;
 }
 
-#cor2 {
+div:nth-of-type(2) {
     color: green;
 }
 
-#cor3 {
+div:nth-of-type(3) {
     color: red;
     font-size: x-large;
-    font-style: italic;
 }
 
-#cor4 {
+div:nth-of-type(4) {
     color: purple;
 }
 
-#cor5 {
+div:nth-of-type(5) {
     color: lightskyblue;
-    font-style: italic;
 }
 
 h3 {
     font-weight: bold;
+}
+
+h3:nth-child(odd) {
+    font-style: italic;
 }
