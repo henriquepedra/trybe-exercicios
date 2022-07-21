@@ -35,7 +35,7 @@ else {
 
 const salarioLiquido = salarioBase - IR;
 
-console.log("Salário bruto: " + salarioBruto)
+console.log("Salário bruto: R$ " + salarioBruto)
 console.log("INSS: " + INSS);
 console.log("IR: " + IR);
 console.log("Salário liquido: R$ " + salarioLiquido);
