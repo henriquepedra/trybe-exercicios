@@ -1,9 +1,9 @@
 let n = 5;
-let asteristico = '*';
+let asterisco = '*';
 let result = '';
 
 for (let index = 0; index < n; index += 1) {
-  result += asteristico;
+  result += asterisco;
 }
 
 for (let index = 0; index < n; index += 1) {

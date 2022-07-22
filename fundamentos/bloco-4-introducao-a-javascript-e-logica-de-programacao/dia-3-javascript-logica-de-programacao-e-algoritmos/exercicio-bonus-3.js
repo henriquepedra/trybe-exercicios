@@ -1,5 +1,5 @@
 let n = 5;
-let asteristico = '*';
+let asterisco = '*';
 let result = '';
 let space = n - 1;
 
@@ -9,7 +9,7 @@ for (let index = 0; index < n; index += 1) {
       result += ' ';
     }
     else {
-      result += asteristico;
+      result += asterisco;
     }
   }
 
