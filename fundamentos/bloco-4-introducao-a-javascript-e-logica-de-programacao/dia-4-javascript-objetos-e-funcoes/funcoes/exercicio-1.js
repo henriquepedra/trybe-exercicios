@@ -1,6 +1,6 @@
 function palindromo(string) {
   for (let index in string) {
-    if (string[index] !== string[(string.length - 1)- index]) {
+    if (string[index] !== string[string.length - 1 - index]) {
       return false;
     }
   }
@@ -8,5 +8,5 @@ function palindromo(string) {
   return true;
 }
 
-// console.log(palindromo('arara'));
-// console.log(palindromo('desenvolvimento'));
+console.log(palindromo('arara'));
+console.log(palindromo('desenvolvimento'));
